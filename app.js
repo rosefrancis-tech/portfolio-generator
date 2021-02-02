@@ -1,10 +1,25 @@
+const fs = require('fs');
+const generatePage = require('./src/page-template.js');
+
+
 const profileDataArgs = process.argv.slice(2);
 
-const name = profileDataArgs[0];
-const github = profileDataArgs[1];
-const fs = require('fs');
-// or single line -> const [name, github] = profileDataArgs;
+const [name, github] = profileDataArgs;
 
+
+fs.writeFile('./index.html', generatePage(name, github), err => {
+  if (err) throw new Error(err);
+
+  console.log('Portfolio complete! Check out index.html to see the output!');
+});
+
+
+
+
+
+
+
+// const profileDataArgs = process.argv.slice(2);
 
 /*
 const printProfileData = profileDataArr => {
@@ -27,6 +42,7 @@ printProfileData(profileDataArgs);
 /*
 const generatePage0 = () => 'Name: Jane, Github: janehub';
 console.log(generatePage0());
+
 const generatePage1 = (userName, githubName) => `Name: ${userName}, Github: ${githubName}`;
 console.log(generatePage1('Jane', 'janehub'));
 
@@ -41,6 +57,13 @@ console.log(name, github);
 
 console.log(generatePage2(name, github));
 */
+
+/*
+const fs = require('fs');
+const name = profileDataArgs[0];
+const github = profileDataArgs[1];
+// or single line -> const [name, github] = profileDataArgs;
+
 const generatePage = (name, github) => {
     return `
     <!DOCTYPE html> 
@@ -65,3 +88,4 @@ fs.writeFile('index.html', generatePage(name, github), err => {
   
     console.log('Portfolio complete! Check out index.html to see the output!');
   });
+*/
