@@ -1,5 +1,13 @@
 module.exports = templateData => {
     console.log(templateData);
+    // destructure projects and about data from templateData based on their property key names
+    //const { projects, about } = templateData;
+    // this will create three variables based on data in templateData, used rest operator
+    const { projects, about, ...header } = templateData;
+    console.log(projects);
+    console.log(about);
+    console.log(header);
+    
 
     return `
     <!DOCTYPE html>
