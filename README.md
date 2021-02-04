@@ -1,4 +1,4 @@
-# &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Portfolio Generator
+# &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Portfolio Generator
 
 [Summary](#Summary) &nbsp; &nbsp; [Introduction](#Introduction) &nbsp; &nbsp; [User Story](#User-Story) &nbsp; &nbsp; [Installation](#Installation) &nbsp; &nbsp; [Mock-Up](#Mock-up) &nbsp; &nbsp; [Built With](#Built-With)
 
@@ -30,7 +30,7 @@ This is a Node.js application that runs from a machine and not a browser. Node.j
 >   When all the inputs are given, the application generates a html file and css file in the folder named 'dist'.  
 >   The command line will show the following two messages on success.  
 >   >   File created!
->   >   CSS created!   
+>   >   CSS created!  
 >   Navigate to the 'dist' folder and open the index.html file in browser to see the result.
 
 ## Mock-Up
@@ -41,9 +41,9 @@ The following image shows the web application's appearance and functionality.
 
 ## Built With
 
-JavaScript ES5
-JavaScript ES6
-Nodejs
-npm
-CSS
-HTML5
+JavaScript ES5  
+JavaScript ES6  
+Nodejs  
+npm  
+CSS  
+HTML5  
