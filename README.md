@@ -29,8 +29,9 @@ This is a Node.js application that runs from a machine and not a browser. Node.j
 >   The user can provide inputs in the Terminal by running "node app" from the root repo.  
 >   When all the inputs are given, the application generates a html file and css file in the folder named 'dist'.  
 >   The command line will show the following two messages on success.  
->   >   File created!
+>   >   File created!  
 >   >   CSS created!  
+
 >   Navigate to the 'dist' folder and open the index.html file in browser to see the result.
 
 ## Mock-Up
