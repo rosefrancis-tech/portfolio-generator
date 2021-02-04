@@ -23,20 +23,21 @@ This is an interactive application that accepts the input of the user from comma
 ## Installation 
 
 This is a Node.js application that runs from a machine and not a browser. Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. It is not deployed to GitHub pages. The style sheet is available in 'src' folder. Please follow the following steps for looking at the application:  
-> Install Node.js from nodejs.org. The version used here is v14.15.4 LTS
-> Clone the folder to your local machine and run it from the Terminal.  
-> The user can provide inputs in the Terminal by running "node app" from the root repo.  
-> When all the inputs are given, the application generates a html file and css file in the folder named 'dist'.  
-> The command line will show the following two messages on success.  
->  > File created!
->  > CSS created!   
-Navigate to the 'dist' folder and open the index.html file in browser to see the result.
+
+>   Install Node.js from nodejs.org. The version used here is v14.15.4 LTS.
+>   Clone the folder to your local machine and run it from the Terminal.  
+>   The user can provide inputs in the Terminal by running "node app" from the root repo.  
+>   When all the inputs are given, the application generates a html file and css file in the folder named 'dist'.  
+>   The command line will show the following two messages on success.  
+>   >   File created!
+>   >   CSS created!   
+>   Navigate to the 'dist' folder and open the index.html file in browser to see the result.
 
 ## Mock-Up
 
 The following image shows the web application's appearance and functionality.
 
-![Mock-up image](/images/mock-up.png "Mock-up image")
+![Mock-up image](/images/mock-up.jpg "Mock-up image")
 
 ## Built With
 
