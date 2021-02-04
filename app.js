@@ -135,7 +135,7 @@ const promptProject = portfolioData => {
           }
     });
   };
-
+/*
   const mockData = {
     name: 'Lernantino',
     github: 'lernantino',
@@ -181,7 +181,7 @@ const promptProject = portfolioData => {
       }
     ]
   };
-  
+  */
 
 
 promptUser()
@@ -190,7 +190,7 @@ promptUser()
     const pageHTML = generatePage(portfolioData);
     //const pageHTML = generatePage(mockData);
     fs.writeFile('./index.html', pageHTML, err => {
-      if (err) throw err;
+      if (err) throw new Error(err);
     
       console.log('Page created! Check out index.html in this directory to see it!');
     });
